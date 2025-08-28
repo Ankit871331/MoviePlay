@@ -78,6 +78,10 @@ padding: 0px 20px;
     width: 15vw;
 }
 
+.a_border:hover{
+    border-bottom: 2.5px solid #DF2144;
+}
+
 @media (max-width:900px) {
     .menuTwo{
         flex-direction: column;
