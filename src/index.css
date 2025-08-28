@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@tailwind utilities;
+@import 'tw-elements/css/tw-elements.min.css';
+
+
+.border {
+  border-bottom: 3px solid transparent; /* keeps space always */
+  transition: border-color 0.3s ease;  /* smooth hover effect */
+}
+
+.border:hover{
+ border-bottom: 3px solid #DF2144;
+}
+
+button{
+    border: none;
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+
+html,body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}

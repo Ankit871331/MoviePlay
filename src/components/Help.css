@@ -1,0 +1,274 @@
+.help_contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.help_search{
+    background-color: black;
+    border: 2px solid black;
+    width: 97%;
+    height: 70px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.help_search>.fa-magnifying-glass{
+    position: absolute;
+    left:10px;
+}
+
+.help_cntents_2{
+    background-color: black;
+    width: 70%;
+    height: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+    align-items: center;
+    border-radius: 20px 20px 0px 0px;
+
+}
+
+.help_search>input{
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;   
+    border-radius: 10px; 
+    padding: 0px 50px;
+
+}
+
+.help_buttons{
+    color: white;
+    font-size: 15px;
+    gap:0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+}
+
+.help_buttons>button{
+    border: 1px solid rgb(174, 174, 174);
+    border-radius: 5px;
+    padding: 4px 20px;
+    
+}
+
+.help_cntents_3{
+    width: 100%;
+    height: 27rem;
+    background-color: rgb(93, 93, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.bt-1{
+    background-color: rgb(162, 202, 246);
+    font-size: 15px;
+    padding: 6px 9px;
+    border-radius: 6px;
+}
+
+.bt-2{
+    background-color: black;
+    columns: white;
+    font-size: 20px;
+    padding: 10px 16px;
+    color: white;
+    border-radius: 10px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 0.7rem;
+}
+
+.contents-4>div{
+    color: black;
+    
+}
+
+.contents-4{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    margin-top: 2rem;
+
+}
+
+.contents-4>div>h1{
+    font-size: 23px;
+    margin-bottom: 1rem;
+}
+
+.help_cntents_4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 6rem;
+}
+
+.help_cntents_5{
+    height: 33rem;
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin-top: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btns-4>button{
+    border: 2px dotted white;
+    font-size: 20px;
+    padding: 10px 20px;
+    width: 22rem;
+    height: 4rem;
+    border-radius: 15px;
+}
+
+.btns-4>button:hover{
+    border-radius: 0px;
+}
+
+.btns-4{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    height: 16rem;
+    flex-wrap: wrap;
+    width: 73%;
+
+}
+
+.head-5{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 45px;
+    width: 73%;
+    margin-bottom: 2rem;
+}
+
+.heading{
+    width: 60%;
+    margin-bottom: 0.7rem;
+}
+
+
+
+.help_cntents_6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 4rem;
+}
+
+.contents-6{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.box{
+    background-color: black;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 20px;
+    font-size: 16px;
+    padding: 20px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.box>h1{
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+.heading-6{
+    width: 73.2%;
+    margin-top: 8rem;
+    margin-bottom: 1rem;
+}
+
+.help_menuTwo{
+    position: relative;
+}
+
+
+    .box_container{
+        display: flex;
+        gap:3rem;
+    }
+
+
+@media (max-width:900px) {
+    .help_p{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .hept_pera{
+        text-align: center;
+    }
+
+    .help_buttons>button{
+        font-size: 10px;
+
+    }
+    .help_buttons{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .help_cntents_3{
+        flex-direction: column;
+        gap: 3rem;
+        height: 70vh;
+    }
+
+    .contents-4{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .btns-4{
+        overflow-y: scroll;
+        overflow: auto;                 /* still scrollable */
+  -ms-overflow-style: none;       /* IE/Edge (legacy) */
+  scrollbar-width: none;          /* Firefox */
+    }
+
+    .box_container{
+        flex-direction: column;
+    }
+
+    .box{
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+    }
+
+}

@@ -1,0 +1,149 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.main_privacy{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    
+}
+
+.main_privacy>MenuTwo{
+    top: -3rem;
+}
+
+.privacy_hero{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    height: 60vh;
+    
+}
+.privacy_hero>h1{
+    font-size: 90px;
+    margin-top: 7rem;
+
+}
+
+.privacy_hero>p{
+    font-size: 20px;
+    text-align: center;
+    width: 700px;
+    color: rgb(181, 179, 179);
+}
+
+.privacy_text{
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.privacy_cntents_buttons{
+    margin-top: 4rem;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    gap: 1.1rem;
+    flex-direction: column;
+    font-size: 26px;
+    background-color: rgb(248, 255, 254);
+}
+
+.privacy_cntents_buttons>button{
+    border: 2px solid black;
+    padding: 10px 0px;
+    border-radius: 10px;
+    width: 90%;
+    background-color: white;
+    transition: all 0.4s ease-out;
+}
+
+
+.privacy_cntents_buttons>button:hover{
+ background-color: black;
+    color: white;
+    
+}
+
+
+.privacy_contents{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.privacy_text{
+    width: 60%;
+}
+
+h6{
+    font-size: 55px;
+    padding: 20px 0px;
+    font-weight: 500;
+    color: black;
+}
+
+.pera{
+    font-size: 20px;
+        margin: 0;
+    padding: 8px;
+
+}
+
+.clackColor{
+    color: rgb(204, 201, 201);
+}
+
+/* footer{
+    font-size: 10px;
+    background-color:black;
+    height:40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:rgb(212, 208, 208);
+} */
+
+footer>p{
+    font-size: 16px;
+    margin-top: 18px;
+}
+
+
+
+
+@media (max-width:900px) {
+
+
+    .privacy_hero>h1{
+    font-size: 70px;
+
+}
+
+.privacy_hero>p{
+    font-size: 15px;
+    width: 100%;
+}
+
+.privacy_cntents_buttons>button{
+    font-size: 10px;
+    width: 100%;
+    border: 1px dotted black;
+}
+
+.privacy_cntents_buttons>button:hover{
+    border-radius: 0px;
+
+}
+
+.SmallSc>p{
+    font-size: 17px;
+}
+
+.SmallSc>h6{
+    font-size: 32px;
+}
+}

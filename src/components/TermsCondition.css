@@ -1,0 +1,44 @@
+ .main_termsCond{
+    background-color: black;
+    
+ }
+
+ .terms{
+    background-color: rgb(20, 20, 20);
+    padding: 4rem 0.4rem;
+}
+
+ .menu_vala{
+    background-color: rgb(0, 0, 0);
+    height: 20vh;
+    position: relative;
+ }
+
+ .terms_hadding{
+        color: white;
+    }
+     .hadding{
+        color: white;
+        padding-top: 3rem;
+    }
+
+ @media (max-width:900px) {
+    .terms_hadding{
+        font-size: 32px;
+        color: white;
+    }
+
+    .hadding{
+        color: white;
+        font-size: 22px;
+        padding-top: 3rem;
+    }
+
+    .term_pera{
+        font-size: 15px;
+    }
+
+    .terms{
+        padding: 4rem 0.5rem;
+    }
+ }
