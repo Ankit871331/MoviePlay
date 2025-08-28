@@ -58,7 +58,9 @@ const MenuTwo = () => {
       </div>
 
       <div className="menu_contents">
-        <button className="border">About Us</button>
+        <button className="border"> 
+          <a href="https://portfolio-ankit-orig.netlify.app/"> About Us </a>
+          </button>
         <button className="border">Articles</button>
         <button className="border" ><a href="#moviecard"> Series </a> </button>
         <button className="border">Music</button>
