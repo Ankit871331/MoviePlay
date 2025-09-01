@@ -59,7 +59,7 @@ const MenuTwo = () => {
 
       <div className="menu_contents">
         
-          <a className="a_border" href="https://portfolio-ankit-orig.netlify.app/"> About Us </a>
+       <button>   <a className="a_border" href="https://portfolio-ankit-orig.netlify.app/"> About Us </a></button>
           
         <button className="border">Articles</button>
         <button className="border" ><a href="#moviecard"> Series </a> </button>
